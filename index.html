@@ -5,11 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>메가박스(클론)</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
 </head>
 <body>
     <h1 class="blind">메가박스</h1>
     <div class="ad">
-        <img src="images/h-direct.jpg" alt="현대해상 다이렉트">
+        <div class="ad_img">
+            <img src="images/h-direct.jpg" alt="현대해상 다이렉트">
+        </div>
+        <div class="ad_close">
+            <a href="#">&times;</a>
+        </div>
     </div>
+    <script>
+        $(function(){
+            $(".ad_close").click(function(){
+                $(".ad").hide();
+            })
+        })
+    </script>
 </body>
 </html>

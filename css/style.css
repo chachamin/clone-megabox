@@ -1,10 +1,36 @@
 @charset "utf-8";
 
 body {
-    font: 16px/1.5 dotum, gulim;
+    font: 16px/1.5 "Maven Pro", "Noto Snas KR", sans-serif;
     color: #000;
+}
+
+a, a:link {
+    color: inherit;
+    text-decoration: none;
 }
 
 .blind {
     display: none;
+}
+
+.ad {
+    background: cornflowerblue;
+    position: relative;
+    height: 80px;
+}
+
+.ad_img {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.ad_close {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-size: 14px;
+    padding: 3px;
+    background: rgb(126, 126, 126);
+    color: #fff;
 }
