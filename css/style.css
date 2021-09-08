@@ -51,4 +51,31 @@ ul {
     margin: 0 auto;
     color: #fff;
     display: flex;
+    justify-content: space-between;
+}
+
+.vip {
+    display: flex;
+}
+
+.vip li {
+    margin-right: 20px;
+    text-transform: uppercase;
+}
+
+.icon_left {
+    display: flex;
+}
+
+.icon_left li {
+    margin-right: 10px;
+}
+
+#gnbLeft {
+    display: flex;
+}
+
+#gnbLeft li {
+    width: 150px;
+    text-align: center;
 }
