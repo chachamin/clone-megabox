@@ -48,10 +48,17 @@ ul {
 
 #wrapInner {
     max-width: 1100px;
+    height: 90px;
     margin: 0 auto;
     color: #fff;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+#innerLeft, #innerRight {
+    width: 480px;
+    overflow: hidden;
 }
 
 .vip {
@@ -59,8 +66,12 @@ ul {
 }
 
 .vip li {
-    margin-right: 20px;
+    margin-right: 15px;
     text-transform: uppercase;
+}
+
+.left_box {
+    display: flex;
 }
 
 .icon_left {
@@ -68,14 +79,49 @@ ul {
 }
 
 .icon_left li {
-    margin-right: 10px;
+    margin-right: 15px;
+}
+
+#innerLeft .nav {
+    display: inline-flex;
 }
 
 #gnbLeft {
-    display: flex;
+    display: inline-flex;
 }
 
 #gnbLeft li {
-    width: 150px;
+    padding: 0 30px;
     text-align: center;
+}
+
+/* #innerRight {
+    display: flex;
+} */
+
+.member {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: auto;
+}
+
+.member li {
+    margin-left: 15px;
+}
+
+#gnbRight {
+    display: inline-flex;
+}
+
+#gnbRight li {
+    padding: 0 30px;
+    text-align: center;
+}
+
+.icon_right {
+    display: inline-flex;
+}
+
+.icon_right li {
+    margin-left: 15px;
 }
