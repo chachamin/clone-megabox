@@ -135,3 +135,111 @@ ul {
 .icon_right li {
     margin-left: 15px;
 }
+
+.best4_wrap {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+#best4 {
+    display: flex;
+    margin: 0 -10px;
+}
+
+#best4 > li{
+    width: calc(25% - 20px);
+    margin: 0 10px;
+}
+
+#best4 > li:hover .overlay_info {
+    opacity: 1;
+}
+
+#best4 .movie_poster {
+    border-radius: 5px;
+    overflow: hidden;
+    font-size: 0;
+    position: relative;
+}
+
+#best4 .movie_poster > img {
+    max-width: 100%;
+}
+
+.rank {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-size: 2rem;
+    color: #fff;
+    font-style: italic;
+}
+
+.rank p {
+    text-shadow: 2px 2px 3px #000;
+}
+
+.screen {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+}
+
+.screen > div {
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin: 3px;
+    background: rgba(0, 0, 0, .4);
+}
+
+.overlay_info {
+    opacity: 0;
+    transition: all .4s;
+    font-size: .875rem;
+    color: #fff;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .5);
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.overlay_info p {
+    margin:  20px 0;
+}
+
+.reviews {
+    position: absolute;
+    width: calc(100% - 20px);
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 5%;
+    text-align: center;
+}
+
+.score {
+    color: aqua;
+    font-size: 1.55rem;
+    font-weight: bolder;
+    margin-left: 10px;
+    letter-spacing: 1px;
+}
+
+.favorite {
+    border: 1px solid #fff; 
+    border-radius: 5px;
+    padding: 5px 15px;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.booking {
+    border: 1px solid transparent;
+    background: skyblue;
+    color: #fff;
+    text-align: center;
+    padding: 5px 50px;
+    font-size: 1rem;
+}
