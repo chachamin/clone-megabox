@@ -63,6 +63,7 @@ ul {
 
 .vip {
     display: flex;
+    margin-top: 15px;
 }
 
 .vip li {
@@ -72,6 +73,12 @@ ul {
 
 .left_box {
     display: flex;
+    margin-top: 15px;
+}
+
+.left_box li {
+    height: 36px;
+    line-height: 36px;
 }
 
 .icon_left {
@@ -80,10 +87,6 @@ ul {
 
 .icon_left li {
     margin-right: 15px;
-}
-
-#innerLeft .nav {
-    display: inline-flex;
 }
 
 #gnbLeft {
@@ -95,31 +98,38 @@ ul {
     text-align: center;
 }
 
-/* #innerRight {
-    display: flex;
-} */
-
 .member {
     display: flex;
     justify-content: flex-end;
-    margin-right: auto;
+    margin-top: 15px;
 }
 
 .member li {
     margin-left: 15px;
 }
 
+.right_box {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+}
+
+.right_box li {
+    height: 36px;
+    line-height: 36px;
+}
+
 #gnbRight {
     display: inline-flex;
 }
 
-#gnbRight li {
-    padding: 0 30px;
+#gnbRight > li {
     text-align: center;
-}
+    padding: 0 30px;
+} 
 
 .icon_right {
-    display: inline-flex;
+    display: inline-flex
 }
 
 .icon_right li {
