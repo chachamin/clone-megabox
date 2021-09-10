@@ -3,7 +3,6 @@
 body {
     font: 16px/1.5 "Maven Pro", "Noto Snas KR", sans-serif;
     color: #000;
-    background: #000;
 }
 
 a, a:link {
@@ -11,7 +10,7 @@ a, a:link {
     text-decoration: none;
 }
 
-ul {
+ul, ol {
     list-style: none;
 }
 
@@ -106,6 +105,7 @@ ul {
     border-bottom: 1px solid #333;
     height: 90px;
     overflow: hidden;
+    background: #000;
 }
 
 #wrapInner {
@@ -203,6 +203,39 @@ ul {
     margin: 0 auto;
 }
 
+#main {
+    background: url("../images/bg-movie-detail-pattern.png"),url("../images/bg.jpg") no-repeat center / cover;
+    padding: 30px 0 80px 0;
+}
+
+hgroup {
+    max-width: 1100px;
+    margin: 20px auto 20px;
+    position: relative;
+    height: 50px;
+    color: #fff;
+}
+
+hgroup h3 {
+    text-align: center;
+}
+
+hgroup h3::after {
+    content: '';
+    display: block;
+    width: 79px;
+    height: 2px;
+    background: silver;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+hgroup h4 {
+    position: absolute;
+    right: 0;
+}
+
 #best4 {
     display: flex;
     margin: 0 -10px;
@@ -226,6 +259,10 @@ ul {
 
 #best4 .movie_poster > img {
     max-width: 100%;
+}
+
+.best4_wrap {
+    position: relative;
 }
 
 .rank {
@@ -290,7 +327,7 @@ ul {
 }
 
 .box_btns {
-    margin: 10px 0 0 0;
+    margin: 20px 0 0 0;
     display: flex;
     justify-content: space-between;
 }
@@ -316,9 +353,61 @@ ul {
 .booking {
     border: 1px solid transparent;
     border-radius: 5px;
-    background: skyblue;
+    background: rgb(9, 103, 116);
     color: #fff;
     text-align: center;
     padding: 5px 60px;
     font-size: 1rem;
+}
+
+#search_extra {
+    background: rgba(0, 0, 0, .7);
+    border-radius: 5px;
+    display: flex;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#search_extra > div {
+    flex: 1;
+    position: relative;
+    padding: 20px 0;
+    color: #fff;
+}
+
+#search_extra > div::after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 25%;
+    width: 1px;
+    height: 50%;
+    background: ivory;
+}
+
+#search_extra > div:nth-last-child(1)::after {
+    display: none;
+}
+
+#search_extra > div img{
+    position: relative;
+    top: 5px;
+    letter-spacing: -5px;
+}
+
+#search input[type=text]{
+    outline: 0;
+    background: none;
+    border: 0;
+    border-bottom: 2px solid ivory;
+    color: #fff;
+    text-indent: 5px;
+}
+
+#mouse {
+    position: absolute;
+    left: 50%;
+    bottom: -40px;
+    transform: translateX(-50%);
 }
