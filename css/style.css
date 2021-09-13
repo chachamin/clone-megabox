@@ -205,7 +205,7 @@ ul, ol {
 
 #main {
     background: url("../images/bg-movie-detail-pattern.png"),url("../images/bg.jpg") no-repeat center / cover;
-    padding: 30px 0 80px 0;
+    padding: 50px 0 150px 0;
 }
 
 hgroup {
@@ -408,6 +408,6 @@ hgroup h4 {
 #mouse {
     position: absolute;
     left: 50%;
-    bottom: -40px;
+    bottom: -70px;
     transform: translateX(-50%);
 }

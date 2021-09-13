@@ -3,14 +3,13 @@ $(function(){
     modal();
     movieExplorer();
     setInterval(mouseScroll, 1500);
-
 })
 function mouseScroll() {
     $("#mouse").animate({
-        bottom: "-40"
+        bottom: "-70"
     }, "swing", function(){
         $("#mouse").animate({
-            bottom: "-35"
+            bottom: "-60"
         });
     })
 }
