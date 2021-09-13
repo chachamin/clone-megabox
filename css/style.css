@@ -411,3 +411,70 @@ hgroup h4 {
     bottom: -70px;
     transform: translateX(-50%);
 }
+
+article:nth-of-type(2) {
+    background: #fff;
+}
+
+.benefit_wrap {
+    width: 1100px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.benefit_wrap h3 {
+    font-size: 1.125rem;
+    position: relative;
+    margin: 30px 0 10px 0;
+}
+
+#benefit {
+    position: absolute;
+    right: 0;
+    font-size: 1.250rem;
+    cursor: pointer;
+}
+
+.fit_box{
+    overflow: hidden;
+}
+
+.fit_left {
+    float: left;
+    width: calc(100% - 430px);
+    position: relative;
+}
+
+#carousel{
+    height: 285px;
+    overflow: hidden;
+    position: relative;
+}
+
+#control {
+    position: absolute;
+    bottom: 10px;
+}
+
+#slideText{
+    position: absolute;
+}
+
+#slideImg{
+    position: absolute;
+    right: 0;
+}
+
+#camapaign {
+    display: flex;
+    flex: 1;
+}
+
+#camapaign img {
+    max-width: 100%;
+}
+
+.fit_right{
+    float: right;
+    width: 415px;
+}
