@@ -448,7 +448,7 @@ article:nth-of-type(2) {
 
 #carousel{
     height: 300px;
-    margin: 0 0 20px 0;
+    margin: 0 0 27px 0;
     overflow: hidden;
     position: relative;
 }
@@ -530,4 +530,27 @@ article:nth-of-type(2) {
     overflow: hidden;
     border-radius: 8px;
     font-size: 0;
+}
+
+.ico_benefit {
+    padding: 150px 0 80px;
+    margin-top: -100px;
+    background: #503396;
+}
+
+.ico_benefit ul{
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ico_benefit ul li {
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.ico_benefit ul li figcaption {
+    margin: 10px 0;
 }
