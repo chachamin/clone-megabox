@@ -442,11 +442,13 @@ article:nth-of-type(2) {
 .fit_left {
     float: left;
     width: calc(100% - 430px);
+    height: 530px;
     position: relative;
 }
 
 #carousel{
-    height: 285px;
+    height: 300px;
+    margin: 0 0 20px 0;
     overflow: hidden;
     position: relative;
 }
@@ -454,6 +456,31 @@ article:nth-of-type(2) {
 #control {
     position: absolute;
     bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.pager {
+    display: flex;
+    margin: 3px 0 0;
+}
+
+.pager li {
+    width: 20px;
+    height: 2px;
+    background: #eee;
+    text-indent: -9999px;
+}
+
+.pager li.on {
+    background: rgb(49, 0, 95);
+}
+
+.btns button {
+    border: 0;
+    background: none;
+    color: rgb(49, 0, 95);
+    font-weight: bold;
 }
 
 #slideText{
@@ -470,6 +497,25 @@ article:nth-of-type(2) {
     flex: 1;
 }
 
+#camapaign li {
+    border-radius: 8px;
+    overflow: hidden;
+    font-size: 0;
+}
+
+#camapaign li:nth-child(1) {
+    width: 66%;
+}
+
+#camapaign li:nth-child(2) {
+    width: 30%;
+    margin-left: 4%;
+}
+
+#camapaign li:nth-child(2) {
+    transform: scale(1.02);
+}
+
 #camapaign img {
     max-width: 100%;
 }
@@ -477,4 +523,11 @@ article:nth-of-type(2) {
 .fit_right{
     float: right;
     width: 415px;
+}
+
+.fit_right a{
+    display: block;
+    overflow: hidden;
+    border-radius: 8px;
+    font-size: 0;
 }
