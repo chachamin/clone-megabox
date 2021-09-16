@@ -348,18 +348,20 @@
         </article>
         <article>
             <div class="curation_wrap">
-                <h3>큐레이션<span id="benefit">큐레이션 더보기&plus;</span></h3>
+                <h3>큐레이션<span id="more">큐레이션 더보기&plus;</span></h3>
                 <div id="curation">
                     <div class="art">
                         <div class="curation_badge">
                             <img src="images/badge-curation-classic.png" alt="큐레이션">
                         </div>
-                        <figure>
+                        <figure id="frame">
                             <img src="images/curation0.jpg" alt="리골레토">
                             <figcaption class="blind">리골레토</figcaption>
                         </figure>
-                        <button onclick="alert('서비스 정검중입니다');">상세정보</button>
-                        <button id="ticketing">예매</button>
+                        <div class="curation_btns">
+                            <button id="detail" onclick="alert('서비스 정검중입니다');">상세정보</button>
+                            <button id="ticketing">예매</button>
+                        </div>
                     </div>
                     <div class="art_info">
                         <h2>#클래식소사이어티</h2>
@@ -377,40 +379,52 @@
                         </ul>
                         <ul class="category">
                             <li>
-                                <div class="badge_flim">
-                                    <img src="images/badge-curation-film-m.png" alt="큐레이션">
-                                </div>
-                                <figure>
-                                    <img src="images/curation1.jpg" alt="좋은사람">
-                                    <figcaption class="blind">좋은사람</figcaption>
-                                </figure>
+                                <a href="#">
+                                    <div class="badge_film">
+                                        <img src="images/badge-curation-film-m.png" alt="큐레이션">
+                                    </div>
+                                    <figure>
+                                        <img src="images/curation1.jpg" alt="좋은사람">
+                                        <figcaption>좋은사람</figcaption>
+                                    </figure>
+                                    <p>좋은사람</p>
+                                </a>
                             </li>
                             <li>
-                                <div class="badge_flim">
-                                    <img src="images/badge-curation-film-m.png" alt="큐레이션">
-                                </div>
-                                <figure>
-                                    <img src="images/curation2.jpg" alt="코다">
-                                    <figcaption class="blind">코다</figcaption>
-                                </figure>
+                                <a href="#">
+                                    <div class="badge_film">
+                                        <img src="images/badge-curation-film-m.png" alt="큐레이션">
+                                    </div>
+                                    <figure>
+                                        <img src="images/curation2.jpg" alt="코다">
+                                        <figcaption>코다</figcaption>
+                                    </figure>
+                                    <p>코다</p>
+                                </a>
                             </li>
                             <li>
-                                <div class="badge_flim">
-                                    <img src="images/badge-curation-film-m.png" alt="큐레이션">
-                                </div>
-                                <figure>
-                                    <img src="images/curation3.jpg" alt="토베 얀손">
-                                    <figcaption class="blind">토베 얀손</figcaption>
-                                </figure>
+                                <a href="#">
+                                    <div class="badge_film">
+                                        <img src="images/badge-curation-film-m.png" alt="큐레이션">
+                                    </div>
+                                    <figure>
+                                        <img src="images/curation3.jpg" alt="토베 얀손">
+                                        <figcaption>토베 얀손</figcaption>
+                                    </figure>
+                                    <p>토베 얀손</p>
+                                </a>
                             </li>
                             <li>
-                                <div class="badge_flim">
-                                    <img src="images/badge-curation-classic-m.png" alt="큐레이션">
-                                </div>
-                                <figure>
-                                    <img src="images/curation4.jpg" alt="마담버터플라이">
-                                    <figcaption class="blind">[오페라]마담버터플라이</figcaption>
-                                </figure>
+                                <a href="#">
+                                    <div class="badge_film">
+                                        <img src="images/badge-curation-classic-m.png" alt="큐레이션">
+                                    </div>
+                                    <figure>
+                                        <img src="images/curation4.jpg" alt="마담버터플라이">
+                                        <figcaption>[오페라]마담버터플라이</figcaption>
+                                    </figure>
+                                    <p>[오페라]마담버터플라이</p>
+                                </a>
                             </li>
                         </ul>
                     </div>

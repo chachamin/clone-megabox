@@ -567,12 +567,61 @@ section article:nth-of-type(3) {
     color: #fff;
 }
 
+.curation_wrap>h3 {
+    font-size: 1.250rem;
+    margin: 30px 0;
+    position: relative;
+}
+
+#more {
+    font-size: 1rem;
+    position: absolute;
+    right: 0;
+}
+
 #curation {
     display: flex;
 }
 
 .art {
     width: 300px;
+    position: relative;
+}
+
+.curation_badge {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+}
+
+#frame{
+    border-radius: 8px;
+    overflow: hidden;
+    font-size: 0;
+}
+
+.curation_btns {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+#detail {
+    background: none;
+    color: #fff;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    width: calc(50% - 4px);
+    height: 50px;
+}
+
+#ticketing {
+    background: #037b94;
+    color: #fff;
+    border-radius: 5px;
+    border: 1px solid #037b94;
+    width: calc(50% - 4px);
+    height: 50px;
 }
 
 .art_info {
@@ -580,6 +629,34 @@ section article:nth-of-type(3) {
     margin-left: 30px;
 }
 
+.art_info hr {
+    color: #efefef;
+}
+
 .category {
     display: flex;
+    gap: 30px;
+    margin: 25px 0;
+}
+.category li {
+    position: relative;
+}
+
+.category li .badge_film {
+    position: absolute;
+    top: -10px;
+    left: 10px;
+}
+
+.category li figure {
+    border-radius: 8px;
+    overflow: hidden;
+    font-size: 0;
+}
+
+
+.category li p{
+    text-align: center;
+    font-size: 0.825rem;
+    margin: 10px 0;
 }
