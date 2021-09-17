@@ -492,31 +492,31 @@ article:nth-of-type(2) {
     right: 0;
 }
 
-#camapaign {
+#campaign {
     display: flex;
     flex: 1;
 }
 
-#camapaign li {
+#campaign li {
     border-radius: 8px;
     overflow: hidden;
     font-size: 0;
 }
 
-#camapaign li:nth-child(1) {
+#campaign li:nth-child(1) {
     width: 66%;
 }
 
-#camapaign li:nth-child(2) {
+#campaign li:nth-child(2) {
     width: 30%;
     margin-left: 4%;
 }
 
-#camapaign li:nth-child(2) {
+#campaign li:nth-child(2) {
     transform: scale(1.02);
 }
 
-#camapaign img {
+#campaign img {
     max-width: 100%;
 }
 
